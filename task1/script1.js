@@ -10,7 +10,7 @@ function mySearch(str,a) {
 
 console.log(mySearch('Hello World!') === 'Hello World!');
 console.log(mySearch() === '');
-console.log(mySearch('    jojo   ') === 'jojo');
+console.log(mySearch('    jojokock   ') === 'jojo');
 console.log(mySearch(2) === '2');
 console.log(mySearch(true) === 'true');
 console.log(mySearch([]) === '[Hello World!]');

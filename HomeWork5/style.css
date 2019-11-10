@@ -17,20 +17,20 @@ body {
     font-weight: 600;
     text-align: center;
   }
-  .taskBox {
+  .tasks {
     background-color: #192b59;
     width: 50%;
     margin: 0 auto;
     
     
   }
-  .taskBox > ul {
+  .tasks > ul {
       padding: 0;
       margin: 0;
       list-style-type: none;
       text-align: center;
   }
-  .taskBox > ul > li {
+  .tasks > ul > li {
       padding-bottom: 10px;
       padding-top: 10px;
   }

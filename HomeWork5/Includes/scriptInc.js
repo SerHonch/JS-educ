@@ -1,4 +1,4 @@
-includes
+// includes
 let arr = [1,2,3,4,5, 'Hello'];
 function myIncludes(arr, search, index = 0){
     for(let i = index; i < arr.length; i++){

@@ -1,4 +1,4 @@
-join  
+// join  
 let arr = [1,2,3,4,5, 'Hello'];
 let free = [];
 let arr2 = [1,2,3,undefined,5,null,undefined, 'Hello'];

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+h1  {
+    color: #192b59;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    background: #7581a1;
+  }
+.progress-bar {
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid rgb(125, 129, 143);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+.color-bar {
+    width: 0%;
+    height: 40px;
+    background-color: #192b59;
+    border-radius: 2px;
+    color: #fff;
+}
+.click {
+    padding: 0;
+    box-sizing: content-box;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid rgb(125, 129, 143);
+    border-radius: 5px;
+    color:#192b59;
+    font-size: 20px;
+    font-weight: 600;
+}
+.click:hover{
+    color: #fff;
+    background-color: #192b59;
+    border: 2px solid #7581a1;
+}

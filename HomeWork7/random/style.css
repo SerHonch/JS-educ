@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+h1  {
+    color: #192b59;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    background: #7581a1;
+  }
+p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #192b59;
+}
+.random-bar {
+    font-size: 50px;
+    font-weight: 600;
+}
+.click {
+    padding: 0;
+    box-sizing: content-box;
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    color:#192b59;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.click:hover{
+    color: #fff;
+    background-color: #192b59;
+    border: 2px solid #7581a1;
+}

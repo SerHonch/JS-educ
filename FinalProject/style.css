@@ -89,20 +89,16 @@ body {
     text-align: center;
     width: 60%;
     height: 400px;
-    /* border: 2px solid #fff; */
 }
 .fighter {
     margin-top: 40px;
     width: 39%;
     height: 80%;
     position: relative;
-    /* border: 2px solid red; */
 }
 .fighter span {
     position: absolute;
     top: 90px;
-    
-    /* animation: drop 1s ease-in-out; */
     opacity: 0;
     font-size: 30px;
     font-weight: 800;
@@ -110,22 +106,15 @@ body {
 }
 .item-1 {
     background-image: url(img/Variann.png);
-    /* width: 137px; */
-    /* height: 324px; */
-    /* background-position: center; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /* animation: attack2 1s ease-in-out; */
 }
 .item-1 span {
     left: 30px;
 }
 .item-2 {
     background-image: url(img/sylvana1.png);
-    /* width: 137px; */
-    /* height: 324px; */
-    /* background-position: center; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -248,10 +237,6 @@ body {
     text-align: center;
     color: #e0bc5f;
     animation: dropUp 1s ease-in-out;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center;
-    flex-direction: column; */
     background-image: url('img/backimg1.jpg');
     background-position: center;
 }
@@ -267,7 +252,6 @@ body {
     height: 90px;
     width: 250px;
     background-color:#1e1f55;
-    /* box-shadow: 6px 6px 8px 6px #4e5754; */
     display: flex;
     align-items: center;
     justify-content: center;
